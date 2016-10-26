@@ -1,0 +1,72 @@
+body{
+    font-size: 16px;
+}
+.ubfw{
+    font-weight: normal;
+}
+.ub-logo{
+    background-position:center;
+    background-size:100%;
+    background-image: url(../images/logo.png)
+}
+.ub-tool{
+    background-position:right;
+    background-size:50%;
+    background-image: url(../images/tool.png)
+}
+.bc-h-col{
+    background-color: rgb(34,34,34)
+}
+.bc-banner{
+    background-color: rgb(13,13,13)
+}
+.font-h-col{
+    color: #fff;
+}
+.ub-img{
+    background-repeat: no-repeat;
+}
+.banner-img1{
+    background-position:center;
+    background-size:100%;
+    background-image: url(../images/cp.png)
+}
+.play-img{
+    background-position:center;
+    background-size:100%;
+    background-image: url(../images/play.png)
+}
+.ubb-b{
+    border-bottom: solid 1px #ccc;
+}
+.ubb-c{
+    border-color: #ccc;
+}
+.font-c{
+    color: #aaa;
+}
+.cp-img{
+    background-position:center;
+    background-size:cover;
+    background-image: url(../images/cpmax.png)
+}
+.cp-img1{
+    background-position:center;
+    background-size:cover;
+    background-image: url(../images/cpmax1.png)
+}
+.cp-img2{
+    background-position:center;
+    background-size:cover;
+    background-image: url(../images/cpmax2.png)
+}
+.cp-img3{
+    background-position:center;
+    background-size:cover;
+    background-image: url(../images/cpmax3.png)
+}
+.cp-img4{
+    background-position:center;
+    background-size:cover;
+    background-image: url(../images/cpmax4.png)
+}
