@@ -42,6 +42,9 @@ body{
 .ubb-c{
     border-color: #ccc;
 }
+.ubb-c1{
+    border-color: #eee;
+}
 .font-c{
     color: #aaa;
 }
@@ -69,4 +72,23 @@ body{
     background-position:center;
     background-size:cover;
     background-image: url(../images/cpmax4.png)
+}
+.line-h13{
+    line-height: 1.3em;
+}
+.line-h18{
+    line-height: 1.8em;
+}
+.bg-foot{
+    background-color: #8a8787;
+}
+.bg-foot a:link {
+    color: #fff;
+    text-decoration: blink;
+}
+.bg-foot a:visited {
+    color: #fff;
+}
+.bg-foot a:hover{
+    color: #337ab7;
 }
