@@ -31,11 +31,11 @@
                         </div>
                     </div>
                     <div class="ub h50 ubb-b ub-ac">
-                        <div class="ub ub-f1 ml10 mr8 pt5 pb5 ub-ac ub-pc uc-a2 uba w0 ubb-c">
+                        <div class="ub ub-f1 ml10 mr8 pt5 pb5 ub-ac ub-pc uc-a2 uba w0 ubb-c" onclick="openwin('HR HUD核心方案')">
                             <div class="ub ub-f1 ml5 fs8">AR HUD 核心方案</div>
                             <div class="ub w10 h10 play-img mr5 ml5"></div>
                         </div>
-                        <div class="ub ub-f1 ml10 mr8 pt5 pb5 ub-ac ub-pc uc-a2 uba w0 ubb-c">
+                        <div class="ub ub-f1 ml10 mr8 pt5 pb5 ub-ac ub-pc uc-a2 uba w0 ubb-c" onclick="openwin('车载多媒体+云平台')">
                             <div class="ub ub-f1 ml5 fs8">车载多媒体+云平台</div>
                             <div class="ub w10 h10 play-img mr5 ml5"></div>
                         </div>
@@ -96,5 +96,13 @@
         <script src="js/jquery.js"></script>
         <script src="js/index.js"></script>
     </body>
-    
+    <script>
+        $("#nav-right").on("click",function () {
+            $("#toolbar").toggle()
+        })
+        function openwin(str){
+            window.open ("video.html") //写成一行
+            localStorage.title=str;
+        } 
+    </script>
 </html>
