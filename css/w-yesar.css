@@ -1,4 +1,9 @@
-
+.ub1
+{
+    display: -webkit-box;
+    display: box !important;
+    position:relative;
+}
 .ubfw{
     font-weight: normal;
 }
@@ -8,18 +13,30 @@
     background-image: url(../images/logo.png)
 }
 .ub-tool{
-    background-position:right;
+    background-position:center;
     background-size:50%;
     background-image: url(../images/tool.png)
+}
+.ub-tool:hover{
+    background-color: rgb(13,13,13)
 }
 .bc-h-col{
     background-color: rgb(34,34,34)
 }
+.bc-btn{
+    background-color: #fff
+}
 .bc-banner{
     background-color: rgb(13,13,13)
 }
+.toolbar:hover{
+    background-color: rgb(57,57,57)
+}
 .font-h-col{
     color: #fff;
+}
+.font-h-col1{
+    color: #000;
 }
 .ub-img{
     background-repeat: no-repeat;
@@ -27,7 +44,12 @@
 .banner-img1{
     background-position:center;
     background-size:auto 100%;
-    background-image: url(../images/cp.png)
+    background-image: url(../images/cp1.png)
+}
+.banner-img2{
+    background-position:center;
+    background-size:auto 100%;
+    background-image: url(../images/cp2.png)
 }
 .play-img{
     background-position:center;
@@ -37,15 +59,24 @@
 .ubb-b{
     border-bottom: solid 1px #ccc;
 }
+.ubb-r{
+    border-right: solid 1px #eee
+}
+
 .ubb-c{
     border-color: #ccc;
 }
 .ubb-c1{
     border-color: #eee;
 }
+.ubb-c2{
+    border-color: #444;
+}
+
 .font-c{
     color: #aaa;
 }
+
 .cp-img{
     background-position:center;
     background-size:cover;
@@ -71,6 +102,17 @@
     background-size:cover;
     background-image: url(../images/cpmax4.png)
 }
+.sp-close{
+    background-position:left;
+    background-size:1em;
+    background-image: url(../images/close.png)
+}
+.bgjr{
+    background-position:center;
+    background-size:cover;
+    background-image: url(../images/bgjr.png)
+}
+
 .line-h13{
     line-height: 1.3em;
 }
@@ -90,3 +132,24 @@
 .bg-foot a:hover{
     color: #337ab7;
 }
+.horn{
+    right: 1em;
+    top: -0.5em;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* Internet Explorer */
+    -moz-transform:rotate(45deg); /* Firefox */
+    -webkit-transform:rotate(45deg); /* Safari 和 Chrome */
+    -o-transform:rotate(45deg); /* Opera */
+   
+}
+#toolbar{
+    right: 0.5em; top: 4em;z-index: 100;
+}
+.text-de{
+    text-decoration: blink;
+}
+
+a:hover{
+    text-decoration: blink;
+}
+
