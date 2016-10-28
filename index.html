@@ -7,6 +7,7 @@
         
         <link rel="stylesheet" href="css/ui-box.css">
         <link rel="stylesheet" href="css/ui-base.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/w-yesar.css">
         
     </head>
@@ -34,10 +35,28 @@
             <!--header结束--><!--content开始-->
             <div id="content" class="ub-f1 tx-l ub-ver">
                 <div class="ub ub-ver">
-                    <div class="ub h150 bc-banner ubb-b">
-                        <div class="banner-img1 w_100 h_100 ub-img">
-                            
+                    <div class="ub h150 bc-banner ubb-b w_100">
+                        <div id="myCarousel" class="carousel slide w_100 h_100">
+                            <!-- 轮播（Carousel）指标 -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                
+                            </ol>   
+                            <!-- 轮播（Carousel）项目 -->
+                            <div class="carousel-inner w_100 h_100">
+                                
+                                <div class="w_100 h_100 item active">
+                                    <div class="banner-img1 w_100 h_100 ub-img"></div>
+                                </div>
+                                <div class="w_100 h_100 item">
+                                    <div class="banner-img2 w_100 h_100 ub-img"></div>
+                                </div>
+                                
+                            </div>
+                           
                         </div>
+                        
                     </div>
                     <div class="ub h50 ubb-b ub-ac">
                         <div class="ub ub-f1 ml10 mr8 pt5 pb5 ub-ac ub-pc uc-a2 uba w0 ubb-c onmouse" onclick="openwin('HR HUD核心方案')">
@@ -66,15 +85,15 @@
                         
                     </div>
                     <div class="ub">
-                        <div class="ub ub-f1 h108 cp-img3">
+                        <div class="ub ub-f1 h108 cp-img3 ubb-b ubb-c1 ubb-r">
                             
                         </div>
-                        <div class="ub ub-f1 h108 cp-img2">
+                        <div class="ub ub-f1 h108 cp-img2 ubb-b ubb-c1">
                             
                         </div>
                     </div>
                     <div class="ub">
-                        <div class="ub ub-f1 h108 cp-img1">
+                        <div class="ub ub-f1 h108 cp-img1 ubb-r">
                             
                         </div>
                         <div class="ub ub-f1 h108 cp-img4">
@@ -85,8 +104,8 @@
                 <div class="ub w_100 ub-ver bgjr ub-img h180">
                     <div class="ub ub-pc mt40"><img src="images/jrt.png" class="w50 " alt="加入我们"/></div>
                     <div class="ub ub-ac mt40 ub-ver">
-                        <p class="ub fs9 font-c">HR@yesartech.com</p>
-                        <a class="ub ub-ac ub-pc h25 w80 mt5 uba bc-btn ubb-c1 fs9 text-de uc-a3 font-h-col1 onmouse" href="mailto:HR@yesartech.com">发送你的简历</a>
+                        <p class="ub fs9 font-c">hr@yesartech.com</p>
+                        <a class="ub ub-ac ub-pc h25 w80 mt5 uba bc-btn ubb-c1 fs9 text-de uc-a3 font-h-col1 onmouse" href="mailto:hr@yesartech.com">发送你的简历</a>
                     </div>
                 </div>
                <div class="ub">
@@ -111,8 +130,10 @@
         </div>
         <script src="js/jquery.js"></script>
         <script src="js/index.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
     <script>
+        $("#myCarousel").carousel('cycle');
         $("#nav-right").on("click",function () {
             $("#toolbar").toggle()
         })
