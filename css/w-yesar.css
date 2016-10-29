@@ -158,3 +158,22 @@ a:hover{
     text-decoration: blink;
 }
 
+.zhinengimg{
+    background-position:center;
+    background-size:100% 100%;
+    background-image: url(../images/1.png);
+    z-index:111111;
+}
+.zhinengimg1{
+    background-position:center;
+    background-size:100% 100%;
+    background-image: url(../images/2.png);
+    z-index:111111;
+}
+.stop{
+    background-position:center;
+    background-size:3em;
+    background-image: url(../images/play1.png);
+    background-color:rgba(0,0,0,.5);
+    z-index:111111;
+}
