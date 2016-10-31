@@ -200,3 +200,7 @@ a:hover{
     z-index:111111;
 }
 .nolink{white-space: nowrap;}
+.header{
+    position: fixed;
+    z-index: 1000;
+}
