@@ -18,9 +18,9 @@
         font-size: 28px;
     }
 }
-@media (min-width: 800px){
+@media (min-width: 760px){
     body{
-        font-size: 30px;
+        font-size: 36px;
     }
 }
 @media (min-width: 1080px){
